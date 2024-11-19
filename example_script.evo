@@ -1,0 +1,4 @@
+model = load_model("text-generation")
+response = model.predict(prompt="Hello, AI!")
+print("EvoLang is running!")
+print(response)
